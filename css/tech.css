@@ -1384,7 +1384,7 @@ p:last-child {
 }
 
 .navbar-area {
-  background-color: #ffffff;
+  background-color: #431ad8;
   position: relative;
   z-index: 999;
   width: 100%;
@@ -1722,6 +1722,7 @@ p:last-child {
   font-size: 60px;
   font-weight: 800;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 .home-slider-description {
@@ -4395,6 +4396,31 @@ blockquote::after,
 
 .partner-section-2 .partner-item-2:nth-child(6) {
   margin-left: 10%;
+}
+
+/**************************************
+  ** - Caroussel CSS
+  *************************************/
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 0%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
 }
 
 /**************************************
