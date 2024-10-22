@@ -143,6 +143,14 @@ p {
   font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
 }
+.p1 {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #302f2f;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
 /* p:last-child {
   margin-bottom: 0;
@@ -317,4 +325,12 @@ p {
   color: #333;
   font-weight: 800;
   margin: 0;
+}
+
+.icon-combo {
+  display: inline-flex;
+  align-items: center;
+}
+.icon-combo i {
+  margin-right: 8px;
 }
